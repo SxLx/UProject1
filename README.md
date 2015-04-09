@@ -1,2 +1,2 @@
 # UProject1
-Alex P Udacity Project 1
+Aleksey Polyakov Udacity Project 1

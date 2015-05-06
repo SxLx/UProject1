@@ -1,3 +1,56 @@
-body {
-	color: red;
+img {
+   max-width: 100%;
+ }
+.top-row {
+	display: flex;
 }
+
+.logo {
+	margin: 100px 0 0 0;
+	position: relative;
+}
+
+h1 {
+	margin: 100px 0 0 0;
+	font-size: 48px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+h3 {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+hr {
+	border: none;
+    /* top    */ border-top: 2px solid #ccc;
+    /* middle */ background-color: #ddd; color: #ddd;
+    height: 2px;
+}
+footer {
+	font-family: 'Fira Sans', sans-serif;
+	font-style: italic;
+}
+
+@media screen and (max-width: 360px) {
+	h1 {
+		font-size: 30px;
+		text-align: right;
+		margin: 20px auto 0 auto;
+	}
+	h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+	h3 {
+		font-size: 20px;
+		text-align: right;
+	}
+	.featured-text {
+		text-align: center;
+	}
+}
+

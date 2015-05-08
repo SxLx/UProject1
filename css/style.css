@@ -1,6 +1,4 @@
-img {
-   max-width: 100%;
- }
+
 .top-row {
 	display: flex;
 }
@@ -24,17 +22,26 @@ h3 {
 	font-family: 'Fira Sans', sans-serif;
 }
 
+h6 {
+	font-family: 'Fira Sans', sans-serif;
+}
+
 hr {
 	border: none;
     /* top    */ border-top: 2px solid #ccc;
     /* middle */ background-color: #ddd; color: #ddd;
     height: 2px;
 }
+img {
+   max-width: 100%;
+ }
+
 footer {
 	font-family: 'Fira Sans', sans-serif;
 	font-style: italic;
 }
 
+/* media queries */
 @media screen and (max-width: 360px) {
 	h1 {
 		font-size: 30px;

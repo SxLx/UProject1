@@ -1,3 +1,11 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  max-width: 960px;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .top-row {
 	display: flex;
@@ -36,19 +44,18 @@ hr {
     /* middle */ background-color: #ddd; color: #ddd;
     height: 2px;
 }
+
 img {
    max-width: 100%;
- }
+}
 
- .feature {
+.feature {
  	text-align: center;
- }
+}
 
 footer {
 	font-family: 'Fira Sans', sans-serif;
 	font-style: italic;
-}
-.foot {
 	text-align: center;
 }
 

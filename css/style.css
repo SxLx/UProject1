@@ -8,6 +8,10 @@
 	position: relative;
 }
 
+.headtext {
+	text-align: right;
+}
+
 h1 {
 	margin: 100px 0 0 0;
 	font-size: 48px;
@@ -36,9 +40,16 @@ img {
    max-width: 100%;
  }
 
+ .feature {
+ 	text-align: center;
+ }
+
 footer {
 	font-family: 'Fira Sans', sans-serif;
 	font-style: italic;
+}
+.foot {
+	text-align: center;
 }
 
 /* media queries */

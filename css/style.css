@@ -51,21 +51,23 @@ footer {
 
 /* media queries */
 @media screen and (max-width: 360px) {
-h1 {
-	font-size: 30px;
-	text-align: right;
-	margin: 20px auto 0 auto;
-}
+	h1 {
+		font-size: 30px;
+		text-align: right;
+		margin: 20px auto 0 auto;
+	}
 
-h2 {
-	font-size: 20px;
-	text-align: center;
-}
-h3 {
-	font-size: 20px;
-	text-align: right;
-}
-.featured-text {
-	text-align: center;
-}
+	h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	h3 {
+		font-size: 20px;
+		text-align: right;
+	}
+	
+	.featured-text {
+		text-align: center;
+	}
 }

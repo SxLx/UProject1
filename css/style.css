@@ -1,7 +1,3 @@
-.top-row {
-	display: flex;
-}
-
 body, html {
   margin: 0;
   padding: 0;
@@ -10,6 +6,10 @@ body, html {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Fira Sans', sans-serif;
+}
+
+.top-row {
+	display: flex;
 }
 
 .logo {
